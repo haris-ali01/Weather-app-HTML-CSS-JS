@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder | Find weather from all the world!</title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="/images/mist.png">
+</head>
+
+<body onload="changeCity()">
+
+    <div class="card">
+        <div class="search">
+            <input type="search" name="search" placeholder="City" spellcheck="false">
+            <button class="btn"><img src="images/search.png"></button>
+        </div>
+
+        <div class="error">
+            <p>Invalid city name!</p>
+        </div>
+
+        <div class="weather">
+            <img src="images/clear.png" class="weather-icon">
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+        
+
+        <div class="grid">
+            <div class="humidity">
+                <img src="images/humidity.png">
+
+                <div class="details">
+                    <p class="humidity-value"></p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+                <img src="images/wind.png">
+
+                <div class="details">
+                    <p class="speed"></p>
+                    <p>Wind speed</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

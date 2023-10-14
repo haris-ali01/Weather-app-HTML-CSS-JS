@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(155deg, #00fe9d, #857bca);
+    width: 410px;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.card .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.card .search input{
+    padding: 10px;
+    width: 280px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    outline: none;
+    background: #d3cfeb;
+    font-size: 18px;
+}
+
+.card .search .btn{
+    background: #9effc3;
+    border: none;
+    border-radius: 50%;
+    width: 42px;
+    height: 40px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.card .search .btn img{
+    width: 18px;
+}
+
+.card .error{
+    text-align: left;
+    font-size: 16px;
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: none;
+}
+
+.card .weather .weather-icon{
+    width: 170px;
+}
+
+.card .weather h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.card .weather h2{
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.card .grid{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 155px);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card .grid .humidity img{
+    width: 45px;
+    height: 35px;
+}
+
+.card .grid .wind img{
+    width: 40px;
+    height: 40px;
+}
+
+.card .grid .humidity, .wind{
+    display: flex;
+    flex-direction: row;
+}
+
+.card .grid .details p{
+    margin: 0px 8px;
+    font-size: 17px;
+    text-align: left;
+}
+
+
+
