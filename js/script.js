@@ -1,8 +1,8 @@
 
 // Getting data from Weather APIs.
 
-const apiKey = 'd7e578e9ef91681f3436aad8de99d609';
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
+const apiKey = 'Your weather API Key';
+const apiUrl = 'Your API URL';
 
 const searchBox = document.querySelector('.search input');
 const searchBtn = document.querySelector('.search button');
