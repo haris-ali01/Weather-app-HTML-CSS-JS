@@ -4,3 +4,7 @@ I created a simple weather app using Html, Css and Javascript and API integratio
 
 # Weather-app-HTML-CSS-JS
 Weather app using HTML/CSS/JavaScript
+
+
+    Weather App
+![Alt text](mockup/WeatherApp.png)
